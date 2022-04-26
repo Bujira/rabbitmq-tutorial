@@ -12,10 +12,10 @@ amqp.connect('amqp://localhost', (error0, connection) => {
     }
 
     var queue = 'hello';
-    var msg = 'Hello World!';
+    var msg = 'Hello World! Welcome to RabbitMQ!';
 
     channel.assertQueue(queue, {
-      durable: false
+      durable: false,
     });
     channel.sendToQueue(queue, Buffer.from(msg));
 
