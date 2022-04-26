@@ -1,0 +1,7 @@
+{
+  "name": "tutorial-rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Bujira <yurifcorrea@gmail.com>",
+  "license": "MIT"
+}
