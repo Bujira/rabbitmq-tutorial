@@ -5,9 +5,7 @@
   "author": "Bujira <yurifcorrea@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "rabbitmq-server",
-    "send": "node send.js",
-    "receive": "node receive.js"
+    "start": "rabbitmq-server"
   },
   "dependencies": {
     "amqplib": "^0.8.0"
